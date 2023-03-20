@@ -50,4 +50,15 @@ public class Homework_1 {
         }
         System.out.print(newString);
     }
+
+    private static boolean isLeapYear(int year) {
+        // проверить, является ли год високосным. если да - return true
+        if (year % 4 == 0) {
+            if (year % 100 == 0) {
+                if (year % 400 == 0) {
+                    return true;
+                } else return false;
+            } else return true;
+        } else return false;
+    }
 }
