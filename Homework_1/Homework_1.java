@@ -61,4 +61,14 @@ public class Homework_1 {
             } else return true;
         } else return false;
     }
+
+    private static int[] createArray(int len, int initalValue) {
+        // должен вернуть массив длины len, каждое значение которого равно initialValue
+        int[] arr = new int[len];
+
+        for (int i = 0; i < len; i++) {
+            arr[i] = initalValue;
+        }
+        return arr;
+    }
 }
