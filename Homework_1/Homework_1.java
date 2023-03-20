@@ -41,4 +41,13 @@ public class Homework_1 {
         if (x > 0) return true;
         return false;
     }
+
+    private static void printString(String source, int repeat) {
+        // напечатать строку source repeat раз
+        StringBuilder newString = new StringBuilder();
+        for (int i = 0; i < repeat; i++) {
+            newString.append(source);
+        }
+        System.out.print(newString);
+    }
 }
