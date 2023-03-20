@@ -82,4 +82,13 @@ public class Homework_1 {
         }
         return reverseArr;
     }
+
+    private static int[] multiplyTwoElementsLessSix(int[] arr) {
+        // Задать массив [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ] пройти по нему циклом, и числа меньшие 6 умножить на 2;
+        int[] multyArr = arr;
+        for (int i = 0; i < multyArr.length; i++) {
+            if (multyArr[i] < 6) multyArr[i] = multyArr[i] * 2;
+        }
+        return multyArr;
+    }
 }
