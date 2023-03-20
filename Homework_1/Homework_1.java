@@ -71,4 +71,15 @@ public class Homework_1 {
         }
         return arr;
     }
+
+    private static int[] reverseElementsValues(int[] arr) {
+        // Задать целочисленный массив, состоящий из элементов 0 и 1.
+        // Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ]. С помощью цикла и условия заменить 0 на 1, 1 на 0;
+        int[] reverseArr = arr;
+        for (int i = 0; i < arr.length; i++) {
+            if (reverseArr[i] == 1) reverseArr[i] = 0;
+            else reverseArr[i] = 1;
+        }
+        return reverseArr;
+    }
 }
