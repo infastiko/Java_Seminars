@@ -35,4 +35,10 @@ public class Homework_1 {
         if (10 <= total && total <= 20) return true;
         return false;
     }
+
+    private static boolean isPositive(int x) {
+        // проверить, что х положительное
+        if (x > 0) return true;
+        return false;
+    }
 }
