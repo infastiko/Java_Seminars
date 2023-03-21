@@ -21,7 +21,6 @@ public class Homework_1 {
         System.out.println(Arrays.toString(multiplyTwoElementsLessSix(arr)));
 
         int[][] array = new int[4][4]; // [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, x], [0, 0, 0, 1]]
-        int x = array[2][3];
         printMassMass(fillDiagonals(array));
     }
 
