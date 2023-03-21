@@ -12,17 +12,7 @@ public class Homework_2 {
 
         System.out.println(buildStringHundredTimes("Text", 100));
 
-        saveFileSS(buildStringHundredTimes("Text", 100));
-    }
-    static String buildString(int n, char c1, char c2) {
-        if (n % 2 == 0) {
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < n; i++) {
-                if (i % 2 == 0) sb.append(c1);
-                else sb.append(c2);
-            }
-            return sb.toString();
-        } else return "n not even. Exit program.";
+        saveFileS(buildStringHundredTimes("Text", 100));
     }
 
 static String buildString(int n, char c1, char c2) {
@@ -62,7 +52,7 @@ static String buildStringHundredTimes(String s , int n) {
     return s.repeat(n);
 }
 
-static void saveFileSS(String createdString) {
+static void saveFileS(String createdString) {
     try {
         Path of = Path.of("file.txt");
 
