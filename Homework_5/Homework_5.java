@@ -20,5 +20,8 @@ public class Homework_5 {
             System.out.println();
         }
     }
-    
+
+    public static void main(String[] args) {
+        collectStats("Мороз и солнце день чудесный Еще ты дремлешь друг прелестный Пора красавица проснись");
+    }
 }
