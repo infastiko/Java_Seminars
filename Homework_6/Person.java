@@ -52,4 +52,13 @@ public class Person {
             }
         }
     }
+
+    public static void moreTwentyYears (HashSet<Person> pers) {
+        System.out.println("\nPerson кто старше 20 лет");
+        for (Person item: pers) {
+            if (item.age > 20) {
+                System.out.println(item);
+            }
+        }
+    }
 }
