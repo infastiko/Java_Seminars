@@ -9,12 +9,12 @@ import static Homework_6.Person.namesake;
 public class Homework_6 {
     public static void main(String[] args) {
         Person p1 = new Person("Stanislav", "Tkachenko", 32, "man", 100);
-        Person p2 = new Person("Andrew", "Sirotin", 31, "man", 200);
+        Person p2 = new Person("Maxim", "Sirotin", 31, "man", 200);
         Person p3 = new Person("Oleg", "Bocharov", 21, "man", 200);
         Person p4 = new Person("Yulia", "Kuranova", 27, "woman", 300);
         Person p5 = new Person("Maria", "Frolova", 18, "woman", 224);
         Person p6 = new Person("Maxim", "Grigorev", 25, "man",  342);
-        Person p7 = new Person("Ivan", "Voitenko", 19, "man", 434);
+        Person p7 = new Person("Oleg", "Voitenko", 19, "man", 434);
 
         System.out.println(p1);  // fn:Ivan ln:Ivanov age:34 gender:men id:100
 
