@@ -31,4 +31,25 @@ public class Person {
     public int hashCode() {
         return id;
     }
+
+    public static void namesake (HashSet<Person> pers) {
+        ArrayList<String> firstNames = new ArrayList<>();
+        ArrayList<String> teskaNames = new ArrayList<>();
+        for (Person item: pers) {
+            if (!(firstNames.contains(item.firstName))) {
+                firstNames.add( item.firstName );
+            } else {
+                teskaNames.add( item.firstName );
+            }
+        }
+
+        System.out.println("\nТёски");
+        for (Person item: pers) {
+            for (int i = 0; i < teskaNames.size(); i++) {
+                if (teskaNames.get( i ) == item.firstName) {
+                    System.out.printf( "fn:%s id:%d\n", item.firstName, item.id );
+                }
+            }
+        }
+    }
 }
