@@ -1,3 +1,5 @@
+package Homework_6;
+
 import java.util.Arrays;
 import java.util.HashSet;
 
